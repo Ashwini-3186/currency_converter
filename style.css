@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #fdf0f0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: cursive;
+    text-decoration: underline;
+    font-size: 3rem;
+    margin: 2rem;
+    color: #4B4453;
+}
+
+.inputcontainer {
+    background-color: #A3D2CA;
+    width: 50%;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#para1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #333;
+}
+
+#input {
+    width: 80%;
+    height: 2.5rem;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 0.3rem;
+    border: none;
+    font-size: 1rem;
+    background-color: #fefefe;
+    color: #333;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.from, .to {
+    background-color: #FFE0AC;
+    width: 40%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#fromcurrency, #tocurrency {
+    width: 100%;
+    padding: 0.4rem;
+    border-radius: 0.3rem;
+    border: none;
+    font-size: 1rem;
+}
+
+.container3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+    gap: 1.5rem;
+}
+
+#cnvtbtn, #rsbtn {
+    background-color: #3F72AF;
+    color: white;
+    width: 8rem;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#cnvtbtn:hover, #rsbtn:hover {
+    background-color: #2C5282;
+}
+
+.output {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 3rem;
+    margin: 1rem 0;
+    border-radius: 0.3rem;
+    background-color: #ffffff;
+    color: #333;
+    font-size: 1.2rem;
+    text-align: center;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
